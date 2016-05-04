@@ -6,8 +6,10 @@ $_SERVER['REMOTE_ADDR']= (isset($_SERVER['REMOTE_ADDR']))?$_SERVER['REMOTE_ADDR'
 
 $config['app_name']	   = "KSP Sejahtera Bersama";
 
-$config['base_path']   = ($config['server'] == 'localhost')
-    ?"http://localhost/bmt/":"https://annur.myazka.web.id/";
+// $config['base_path']   = ($config['server'] == 'localhost')
+//     ?"http://localhost/bmt/":"https://annur.myazka.web.id/";
+
+$config['base_path']   = "http://192.168.0.26/bmt/";
 
 $config['assets_path'] = $config['base_path'] ."assets";
 
